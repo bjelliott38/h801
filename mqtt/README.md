@@ -31,8 +31,7 @@ The is an alternative firmware for the H801 LED dimmer that uses MQTT as a contr
 1. Install PlatformIO on your system with ```sudo pip install -U platformio```
 1. ```git clone``` this repository
 1. ```cd h801/mqtt```
-1. Build the firmware with ```pio run```
-1. Install the firmware with ```pio run --target upload --upload-port /dev/ttyUSB0```
+1. Build and install the firmware with ```pio run --target upload --upload-port /dev/ttyUSB0```
 1. Future OTA updates can be performed with ```pio run --target update --upload-port 192.168.4.1``` - change the IP address to suit.
 
 Status information:
