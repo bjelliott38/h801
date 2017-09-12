@@ -32,7 +32,7 @@ The is an alternative firmware for the H801 LED dimmer that uses MQTT as a contr
 1. ```git clone``` this repository
 1. ```cd h801/mqtt```
 1. Build and install the firmware with ```pio run --target upload --upload-port /dev/ttyUSB0```
-1. Future OTA updates can be performed with ```pio run --target update --upload-port 192.168.4.1``` - change the IP address to suit.
+1. Future OTA updates can be performed with ```pio run --target upload --upload-port 192.168.4.1``` - change the IP address to suit.
 
 Status information:
 If you have entered the correct Wifi credentials and the H801 was able to connect to your wifi, it will blink with the green led 10 times
